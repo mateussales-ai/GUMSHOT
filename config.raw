@@ -1,1 +1,15 @@
-arquivo de configuração <GumShot>
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "enabled": false,
+  "expiresAt": "2027-01-01T00:00:00Z",
+  "refreshSeconds": 21600,
+  "cacheSeconds": 86400,
+  "profiles": [
+    "mamute-1", "mamute-2",
+    "armor-1", "armor-2",
+    "trico-1", "trico-2",
+    "personalizado-1", "personalizado-2"
+  ],
+  "message": "Previsão suspensa até a liberação dos perfis pelo responsável."
+}
