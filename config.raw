@@ -1,15 +1,25 @@
 {
   "schemaVersion": 1,
-  "revision": 2,
+  "revision": 3,
   "enabled": true,
   "expiresAt": "2027-01-01T00:00:00Z",
-  "refreshSeconds": 21600,
+  "refreshSeconds": 3600,
   "cacheSeconds": 86400,
   "profiles": [
-    "mamute-1", "mamute-2",
-    "armor-1", "armor-2",
-    "trico-1", "trico-2",
-    "personalizado-1", "personalizado-2"
+    "mamute-1",
+    "mamute-2",
+    "armor-1",
+    "armor-2",
+    "trico-1",
+    "trico-2",
+    "personalizado-1",
+    "personalizado-2",
+    "weight-normal",
+    "weight-light",
+    "weight-heavy",
+    "weight-super-heavy",
+    "weight-ultra-heavy",
+    "weight-hyper-light"
   ],
-  "message": "Previsão suspensa até a liberação dos perfis pelo responsável."
+  "message": "Perfis experimentais: previsão aproximada de voo livre; calibre arco e vento. Fases especiais e colisões não cobertas."
 }
